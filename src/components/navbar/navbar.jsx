@@ -48,7 +48,7 @@ const Navbar = ({ setShowLogin, setShowSearch }) => {
         <img
           onClick={() => {
             console.log("Search button clicked");
-            setShowSearch(true); // แก้ไขให้ใช้เฉพาะฟังก์ชันนี้
+            setShowSearch(true);
           }}
           src={assets.search_icon}
           alt="Search"
