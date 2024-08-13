@@ -1,0 +1,127 @@
+.recommended-list:hover {
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.menu-details {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  display: grid;
+  gap: 15px;
+}
+
+.menu-details img {
+  width: 400px;
+  height: auto;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.menu-content {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  max-width: 50px;
+  align-items: center;
+}
+
+.item-counter {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+
+.counter-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.item-counter p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.recommended-section {
+  margin-top: 30px;
+}
+
+.recommended-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.recommended-list {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  gap: 10px;
+  min-height: 150px;
+}
+
+.recommended-item {
+  min-width: 180px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recommended-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+
+.recommended-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-rule {
+  height: 1px;
+  background-color: gray;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 750px) {
+  .item-counter {
+    padding: 4px;
+  }
+
+  .item-counter svg {
+    width: 15px;
+    height: 15px;
+  }
+  .recommended-item {
+    min-width: 150px;
+  }
+}

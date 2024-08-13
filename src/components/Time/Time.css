@@ -1,0 +1,13 @@
+.time {
+  background-color: #d26a36;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 13px;
+}
+@media (max-width: 750px) {
+  .time {
+    height: 30px;
+  }
+}
