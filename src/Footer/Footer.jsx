@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-coryright">
-        Copyright 2024 tomato.com - All right Deserved.
+        Copyright 2024 SanteKitchen.com - All right Deserved.
       </div>
     </div>
   );

@@ -47,7 +47,6 @@ const Navbar = ({ setShowLogin, setShowSearch }) => {
       <div className="navbar-right">
         <img
           onClick={() => {
-            console.log("Search button clicked");
             setShowSearch(true);
           }}
           src={assets.search_icon}

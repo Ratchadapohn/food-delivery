@@ -1,7 +1,7 @@
 .header {
   height: 34vw;
   margin: 5px auto;
-  background: url("./header_img.png");
+  background: url("/header_img.png");
   background-size: cover;
   position: relative;
 }
